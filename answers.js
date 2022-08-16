@@ -81,14 +81,22 @@ for (let i = 1; i <= 100; i++) {
   
   console.log(favMovies.unshift());
   //It returns the length of new array.
+  console.log(favMovies.indexOf('Django Unchained'))
   
-  console.log(favMovies.splice(4,0,'Django Unchained','Avatar'))
-  console.log(favMovies.length)
+  console.log(favMovies.splice(14,1,'Avatar'))
+  const halfwayThrough = Math.floor(favMovies.length/2);
+  const firstHalf= favMovies.slice(0,halfwayThrough);
+  const secondHalf= favMovies.slice(halfwayThrough, favMovies.length);
   
+  console.log(firstHalf,secondHalf);
+
+  console.log(favMovies.indexOf('Fast and Furious'))
+
+
   
   ////////////////////////////////
   // Where is Waldo
-  ////////////////////////////////
+  //////////////////////////////
   const whereIsWaldo = [
     ["Timmy", "Frank"],
     "Eggbert",   
