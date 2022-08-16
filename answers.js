@@ -82,8 +82,8 @@ for (let i = 1; i <= 100; i++) {
   console.log(favMovies.unshift());
   //It returns the length of new array.
   
-  
-  
+  console.log(favMovies.splice(4,0,'Django Unchained','Avatar'))
+  console.log(favMovies.length)
   
   
   ////////////////////////////////
