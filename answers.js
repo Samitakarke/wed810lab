@@ -112,4 +112,13 @@ for (let i = 1; i <= 100; i++) {
   
   ////////////////////////////////
   //  Excited Kitten
+  for(let i=0;i<20;i++)
+  {
+    console.log("Love me, pet me! HSSSSSS!");
+    if (i%2===0)
+    {
+      console.log('"...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random."');
+    }
+  }
+
   ////////////////////////////////
